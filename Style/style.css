@@ -31,7 +31,8 @@ body{
 }
 
 .logo{
-    width: 6vw;
+    /* width: 8vw; */
+    width: 100px;
 }
 .nav-item{
     margin-left: 15px;
