@@ -154,11 +154,7 @@ video{
 
 /* ---------------------- section-4 */
 
-#tracking{
-    /* position: absolute;
-    /* visibility: hidden; */
-    top: 0px; */
-}
+
 .form-cont{
     position: relative;
 }
@@ -347,7 +343,11 @@ footer img{
 }
 
 
-
+@media only screen and (max-width: 660px){
+    .parcel-detail{
+        width: 120px;
+    }
+}
 
 
 
