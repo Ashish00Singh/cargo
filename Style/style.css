@@ -349,4 +349,10 @@ table tr td a{
         border-radius: 15px;
         width: 350px;
     }
+    
+}
+@media only screen and (max-width: 560px){
+.carousel-item img{
+        height: 400px;
+    }
 }
