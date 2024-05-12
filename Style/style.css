@@ -325,19 +325,26 @@ footer{
 footer img{
     width: 350px;
 }
-table tr th{
-    padding: 10px 25px;
+.footer-det{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     text-align: center;
-    color: #e20016;
+    flex-wrap: wrap;
 }
-table tr td{
-    padding: 10px 25px;
-    text-align: center;
+.footer-sub {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
 }
-table tr td a{
+.footer-sub a{
     text-decoration: none;
-    color: #2787af;
+    color: black;
 }
+
 
 
 
