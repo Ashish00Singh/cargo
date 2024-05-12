@@ -107,7 +107,7 @@ video{
 }
 .achiv-img{
     border-radius: 15px;
-    max-width: 450px;
+   
 }
 
 /* --------------------------- section-3  */
@@ -155,9 +155,9 @@ video{
 /* ---------------------- section-4 */
 
 #tracking{
-    position: absolute;
-    visibility: hidden;
-    top: 0px;
+    /* position: absolute;
+    /* visibility: hidden; */
+    top: 0px; */
 }
 .form-cont{
     position: relative;
@@ -355,7 +355,7 @@ footer img{
 @media only screen and (max-width: 460px) {
     .achiv-img{
         border-radius: 15px;
-        width: 320px;
+        width: 300px;
     }
     
 }
