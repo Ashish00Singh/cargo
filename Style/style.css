@@ -94,8 +94,9 @@ video{
 .achiv{
     padding: 5%;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    /* align-items: center; */
     flex-wrap: wrap;
     gap: 50px;
     background-color:#2787af;
@@ -154,6 +155,9 @@ video{
 
 /* ---------------------- section-4 */
 
+.tracking{
+    display: none;
+}
 
 .form-cont{
     position: relative;
@@ -343,21 +347,42 @@ footer img{
 }
 
 
-@media only screen and (max-width: 660px){
+@media only screen and (max-width: 960px){
     .parcel-detail{
         width: 120px;
+    }
+    
+}
+@media only screen and (max-width: 750px){
+    .formdisplaynon{
+        display: none;
     }
 }
 
 
-
+@media only screen and (max-width: 1130px) {
+    .achiv-img{
+        width: 300px;
+    } 
+    .achiv-text{
+        max-width: 320px;
+    }
+}
+@media only screen and (max-width: 755px) {
+    .achiv-img{
+        width: 250px;
+    } 
+    .achiv-text{
+        max-width: 250px;
+        font-size: medium;
+    }
+}
 
 @media only screen and (max-width: 460px) {
     .achiv-img{
         border-radius: 15px;
         width: 300px;
-    }
-    
+    } 
 }
 @media only screen and (max-width: 560px){
 .carousel-item img{
